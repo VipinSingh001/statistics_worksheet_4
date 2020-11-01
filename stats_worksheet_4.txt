@@ -1,0 +1,64 @@
+1. A
+2. D
+3. B
+4. D
+5. C
+6. B
+7. B
+8. A
+9. C
+
+10. Normal distribution, also known as the Gaussian distribution, is a probability distribution that is symmetric about the mean, showing that data near the mean are     more frequent in occurrence than data far from the mean. 
+    In graph form, normal distribution will appear as a bell curve.
+    68% of values are within 1 standard deviation of the mean
+    95% of values are within 2 standard deviations of the mean
+    99.7% of values are within 3 standard deviations of the mean
+
+
+11. Handle the missing data with the help of various techniques 
+    1. Stochastic regression imputation
+    2. Extrapolation and Interpolation
+    3. Hot-Deck imputation,
+    4. Imputation Using Deep Learning (Datawig)
+    5. Imputation Using Multivariate
+    6. Imputation by Chained Equation (MICE)
+    7. Imputation Using k-NN 
+    8. Imputation Using (Most Frequent) or (Zero/Constant) Values
+    9. Imputation Using (Mean/Median) Values
+
+    there is no perfect way to compensate for the missing values in a dataset. Each strategy can perform better for certain datasets and missing data types but may         perform much worse on other types of datasets. So i will recommend apply these technique according to dataset.
+
+
+
+
+
+
+12. An AB test is an example of statistical hypothesis testing, a process whereby a hypothesis is made about the relationship between two data sets and those data sets     are then compared against each other to determine if there is a statistically significant relationship or not.
+
+
+13. Bad practice in general
+    If just estimating means: mean imputation preserves the mean of the observed data
+    Leads to an underestimate of the standard deviation
+    Distorts relationships between variables by “pulling” estimates of the correlation toward zero
+
+
+
+
+
+14. Simple linear regression is a statistical method that allows us to summarize and study relationships between two continuous (quantitative) variables:
+
+   * Linear regression is the next step up after correlation. 
+   * It is used when we want to predict the value of a variable based on the value of another variable. 
+   * The variable we want to predict is called the dependent variable (or sometimes, the outcome variable). 
+   * The variable we are using to predict the other variable's value is called the independent variable (or sometimes, the predictor variable).
+   *   X = a+bY
+   *   ∑X = Na + b∑Y 
+   *   ∑XY=a∑Y+b∑Y2
+
+
+
+15. Branches of Statistics -
+    a) Descriptive - deals with the presentation and collection of data. It includes outliers, spread of data, range, interquartile range, variance, standard               deviation, histogram, center limit theorem, z-score, probability and distribution
+
+    b) Inferential - as the name suggests, involves drawing the right conclusions from the statistical analysis that has been performed using descriptive statistics.
+       It includes correlation, chi-square test, various types of t-test, hypothesis testing, confidence intervals and margin of error
